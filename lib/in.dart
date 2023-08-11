@@ -22,10 +22,10 @@ class _INState extends State<IN> {
             Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => NewScreen(),
+                  builder: (context) => const NewScreen(),
                 ));
           },
-          child: Text(''),
+          child: const Text(''),
         ),
       ),
     );
