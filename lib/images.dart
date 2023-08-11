@@ -24,54 +24,37 @@ class _ImagesState extends State<Images> {
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Image.network(
-                  "https://images.pexels.com/photos/799443/pexels-photo-799443.jpeg?auto="
-                  "compress&cs=tinysrgb&w=1260&h=750&dpr=1"),
+              child: Image.asset("images/2.png.jpg"),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Image.network(
-                  "https://images.pexels.com/photos/1535162/pexels-photo-1535162.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"),
+              child: Image.asset("images/3.png.jpg"),
             ),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Image.network(
-                  "https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"),
+              child: Image.asset("images/4.png.jpg"),
             ),
             Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Image.network(
-                  "https://images.pexels.com/photos/1433052/pexels-photo-1433052.jpeg?auto=compress&cs=tinysrgb&w=600"),
-            ),
+                padding: const EdgeInsets.all(8.0),
+                child: Image.asset("images/5.png.jpg")),
+            Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Image.asset("images/6.png.jpg")),
+            Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Image.asset("images/7.png.jpg")),
+            Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Image.asset("images/8.png.jpg")),
+            Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Image.asset("images/3.png.jpg")),
+            Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Image.asset("images/2.png.jpg")),
             Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Image.network(
-                  "https://images.pexels.com/photos/1156684/pexels-photo-1156684.jpeg?auto=compress&cs=tinysrgb&w=600"),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Image.network(
-                  "https://images.pexels.com/photos/1141792/pexels-photo-1141792.jpeg?auto=compress&cs=tinysrgb&w=600"),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Image.network(
-                  "https://images.pexels.com/photos/1707215/pexels-photo-1707215.jpeg?auto=compress&cs=tinysrgb&w=600"),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Image.network(
-                  "https://images.pexels.com/photos/1366913/pexels-photo-1366913.jpeg?auto=compress&cs=tinysrgb&w=600"),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Image.network(
-                  "https://images.pexels.com/photos/1367105/pexels-photo-1367105.jpeg?auto=compress&cs=tinysrgb&w=600"),
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Image.network(
-                  "https://images.pexels.com/photos/1624438/pexels-photo-1624438.jpeg?auto=compress&cs=tinysrgb&w=600"),
+              child: Image.asset("images/1.png.jpg"),
             ),
           ],
         ),
