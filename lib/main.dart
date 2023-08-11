@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:untitled1/in.dart';
 
-import 'newscreen.dart';
-
 void main() {
   runApp(const MyApp());
 }
